@@ -2,6 +2,8 @@ package examples.Document_Information;
 
 import com.groupdocs.cloud.signature.client.*;
 import com.groupdocs.cloud.signature.model.*;
+import com.groupdocs.cloud.signature.model.requests.GetInfoRequest;
+
 import java.util.List;
 import com.groupdocs.cloud.signature.client.Configuration;
 import com.groupdocs.cloud.signature.api.*;
@@ -27,7 +29,7 @@ public class Signature_Java_DocumentInfo_File {
 			GetInfoRequest request = new GetInfoRequest(infoSettings);
 
 			InfoResult response = apiInstance.getInfo(request);
-			System.out.println("Expected response type is InfoResult: " + response.getPath());
+			System.out.println("Expected response type is InfoResult: " + response);
         } catch (ApiException e) {
             System.err.println("Exception while calling InfoApi:");
             e.printStackTrace();

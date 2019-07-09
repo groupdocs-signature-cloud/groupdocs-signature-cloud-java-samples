@@ -5,7 +5,7 @@ import com.groupdocs.cloud.signature.client.ApiException;
 import com.groupdocs.cloud.signature.model.requests.*;
 import examples.Utils;
 
-public class Signature_Java_Signature_Java_Delete_Folder {
+public class Signature_Java_Delete_Folder {
 
 	public static void main(String[] args) {
 

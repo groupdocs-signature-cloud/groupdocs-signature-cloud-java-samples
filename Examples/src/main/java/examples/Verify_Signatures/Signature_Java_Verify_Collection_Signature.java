@@ -2,6 +2,7 @@ package examples.Verify_Signatures;
 
 import com.groupdocs.cloud.signature.api.*;
 import com.groupdocs.cloud.signature.client.ApiException;
+import com.groupdocs.cloud.signature.client.Configuration;
 import com.groupdocs.cloud.signature.model.*;
 import com.groupdocs.cloud.signature.model.OptionsBase.DocumentTypeEnum;
 import com.groupdocs.cloud.signature.model.OptionsBase.SignatureTypeEnum;
@@ -13,6 +14,7 @@ import com.groupdocs.cloud.signature.model.SignTextOptions.MarginMeasureTypeEnum
 import com.groupdocs.cloud.signature.model.SignTextOptions.SizeMeasureTypeEnum;
 import com.groupdocs.cloud.signature.model.SignTextOptions.StretchEnum;
 import com.groupdocs.cloud.signature.model.SignTextOptions.VerticalAlignmentEnum;
+import com.groupdocs.cloud.signature.model.VerifyTextOptions.MatchTypeEnum;
 import com.groupdocs.cloud.signature.model.requests.*;
 import java.util.List;
 import examples.Utils;
@@ -59,7 +61,7 @@ public class Signature_Java_Verify_Collection_Signature {
 			digitalOptions.setPage(1);
 			digitalOptions.setAllPages(true);
 			
-			PagesSetup pagesSetup = new PagesSetup();
+			pagesSetup = new PagesSetup();
 			pagesSetup.setEvenPages(false);
 			pagesSetup.setFirstPage(true);
 			pagesSetup.setLastPage(false);

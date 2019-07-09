@@ -2,6 +2,7 @@ package examples.Signing_Documents;
 
 import com.groupdocs.cloud.signature.api.*;
 import com.groupdocs.cloud.signature.client.ApiException;
+import com.groupdocs.cloud.signature.client.Configuration;
 import com.groupdocs.cloud.signature.model.*;
 import com.groupdocs.cloud.signature.model.OptionsBase.DocumentTypeEnum;
 import com.groupdocs.cloud.signature.model.OptionsBase.SignatureTypeEnum;

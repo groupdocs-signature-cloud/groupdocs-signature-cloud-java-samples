@@ -2,6 +2,7 @@ package examples.Signing_Documents;
 
 import com.groupdocs.cloud.signature.api.*;
 import com.groupdocs.cloud.signature.client.ApiException;
+import com.groupdocs.cloud.signature.client.Configuration;
 import com.groupdocs.cloud.signature.model.*;
 import com.groupdocs.cloud.signature.model.OptionsBase.DocumentTypeEnum;
 import com.groupdocs.cloud.signature.model.OptionsBase.SignatureTypeEnum;
@@ -113,21 +114,21 @@ public class Signature_Java_Collection_Signature {
 			textOptions.setHorizontalAlignment(HorizontalAlignmentEnum.NONE);
 			textOptions.setVerticalAlignment(VerticalAlignmentEnum.NONE);
 			
-			Padding padding = new Padding();
+			padding = new Padding();
 			padding.setAll(5);
 			textOptions.setMargin(padding);
 			textOptions.setMarginMeasureType(MarginMeasureTypeEnum.PIXELS);
 
 			// set signature appearance
-			Color foreColor = new Color();
+			foreColor = new Color();
 			foreColor.setWeb("BlueViolet");
 			textOptions.setForeColor(foreColor);
 			
-			Color borderColor = new Color();
+			borderColor = new Color();
 			borderColor.setWeb("DarkOrange");
 			textOptions.setBorderColor(borderColor);
 			
-			Color backgroundColor = new Color();
+			backgroundColor = new Color();
 			backgroundColor.setWeb("DarkOrange");
 			textOptions.setBackgroundColor(backgroundColor);
 			textOptions.setBorderVisiblity(true);
@@ -137,7 +138,7 @@ public class Signature_Java_Collection_Signature {
 			textOptions.setPage(1);
 			textOptions.setAllPages(true);
 			
-			PagesSetup pagesSetup = new PagesSetup();
+			pagesSetup = new PagesSetup();
 			pagesSetup.setEvenPages(false);
 			pagesSetup.setFirstPage(true);
 			pagesSetup.setLastPage(false);

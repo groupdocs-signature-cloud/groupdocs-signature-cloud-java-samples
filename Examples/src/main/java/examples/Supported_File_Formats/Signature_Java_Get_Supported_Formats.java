@@ -7,7 +7,7 @@ import com.groupdocs.cloud.signature.client.Configuration;
 import com.groupdocs.cloud.signature.api.*;
 import examples.Utils;
 
-public class Signature_Java_Signature_Java_Get_Supported_Formats {
+public class Signature_Java_Get_Supported_Formats {
 
 	public static void main(String[] args) {
 

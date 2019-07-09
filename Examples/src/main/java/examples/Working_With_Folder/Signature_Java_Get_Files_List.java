@@ -7,7 +7,7 @@ import com.groupdocs.cloud.signature.model.*;
 import com.groupdocs.cloud.signature.model.requests.*;
 import examples.Utils;
 
-public class Signature_Java_Signature_Java_Get_Files_List {
+public class Signature_Java_Get_Files_List {
 
 	public static void main(String[] args) {
 

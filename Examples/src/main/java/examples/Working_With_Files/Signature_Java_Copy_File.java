@@ -5,7 +5,7 @@ import com.groupdocs.cloud.signature.client.ApiException;
 import com.groupdocs.cloud.signature.model.requests.*;
 import examples.Utils;
 
-public class Signature_Java_Signature_Java_Copy_File {
+public class Signature_Java_Copy_File {
 
 	public static void main(String[] args) {
 

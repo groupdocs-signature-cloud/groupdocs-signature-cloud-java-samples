@@ -2,9 +2,11 @@ package examples.Search_Signatures;
 
 import com.groupdocs.cloud.signature.api.*;
 import com.groupdocs.cloud.signature.client.ApiException;
+import com.groupdocs.cloud.signature.client.Configuration;
 import com.groupdocs.cloud.signature.model.*;
 import com.groupdocs.cloud.signature.model.OptionsBase.DocumentTypeEnum;
 import com.groupdocs.cloud.signature.model.OptionsBase.SignatureTypeEnum;
+import com.groupdocs.cloud.signature.model.SearchBarcodeOptions.MatchTypeEnum;
 import com.groupdocs.cloud.signature.model.SignBarcodeOptions.CodeTextAlignmentEnum;
 import com.groupdocs.cloud.signature.model.SignTextOptions.BorderDashStyleEnum;
 import com.groupdocs.cloud.signature.model.SignTextOptions.HorizontalAlignmentEnum;
@@ -59,7 +61,7 @@ public class Signature_Java_Search_Collection_Signature {
 			digitalOptions.setPage(1);
 			digitalOptions.setAllPages(true);
 			
-			PagesSetup pagesSetup = new PagesSetup();
+			pagesSetup = new PagesSetup();
 			pagesSetup.setEvenPages(false);
 			pagesSetup.setFirstPage(true);
 			pagesSetup.setLastPage(false);
@@ -75,7 +77,7 @@ public class Signature_Java_Search_Collection_Signature {
 			SearchSignaturesRequest request = new SearchSignaturesRequest(searchSettings);
 
 			SearchResult  response = apiInstance.searchSignatures(request);
-			System.out.println("Expected response type is SearchResult : Length = " + response.getSignatures().Length);
+			System.out.println("Expected response type is SearchResult : Length = " + response.getSignatures());
         } catch (ApiException e) {
             System.err.println("Exception while calling SignApi:");
             e.printStackTrace();

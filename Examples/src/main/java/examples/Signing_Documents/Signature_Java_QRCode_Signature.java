@@ -2,6 +2,7 @@ package examples.Signing_Documents;
 
 import com.groupdocs.cloud.signature.api.*;
 import com.groupdocs.cloud.signature.client.ApiException;
+import com.groupdocs.cloud.signature.client.Configuration;
 import com.groupdocs.cloud.signature.model.*;
 import com.groupdocs.cloud.signature.model.OptionsBase.DocumentTypeEnum;
 import com.groupdocs.cloud.signature.model.OptionsBase.SignatureTypeEnum;
@@ -34,7 +35,7 @@ public class Signature_Java_QRCode_Signature {
             InfoSettings infoSettings = new InfoSettings();
 			infoSettings.setFileInfo(fileInfo);
 
-			SignTextOptions options = new SignTextOptions();
+			SignQRCodeOptions options = new SignQRCodeOptions();
 			options.setDocumentType(DocumentTypeEnum.WORDPROCESSING);
 			options.setSignatureType(SignatureTypeEnum.QRCODE);
 

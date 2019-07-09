@@ -2,9 +2,11 @@ package examples.Verify_Signatures;
 
 import com.groupdocs.cloud.signature.api.*;
 import com.groupdocs.cloud.signature.client.ApiException;
+import com.groupdocs.cloud.signature.client.Configuration;
 import com.groupdocs.cloud.signature.model.*;
 import com.groupdocs.cloud.signature.model.OptionsBase.DocumentTypeEnum;
 import com.groupdocs.cloud.signature.model.OptionsBase.SignatureTypeEnum;
+import com.groupdocs.cloud.signature.model.VerifyTextOptions.MatchTypeEnum;
 import com.groupdocs.cloud.signature.model.requests.*;
 import java.util.List;
 import examples.Utils;

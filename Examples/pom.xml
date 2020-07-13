@@ -14,7 +14,7 @@
   	<dependency>
   		<groupId>com.groupdocs</groupId>
   		<artifactId>groupdocs-signature-cloud</artifactId>
-  		<version>19.5</version>
+  		<version>20.7</version>
   	</dependency>
   </dependencies>
 </project>

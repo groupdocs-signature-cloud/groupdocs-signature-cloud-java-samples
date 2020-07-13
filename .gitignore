@@ -1,41 +1,22 @@
-# Eclipse project files
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# build files
+**/target
+target
+build
+
+.settings/
 .classpath
 .project
-.settings/
-test-output/
-
-# IntelliJ project files
-.idea/
-*.iws
-*.iml
-*.ipr
-
-# Mac
-.DS_Store
-
-# Others
-Temp/
-obj/
-classes/
-generated/
-bin/
-*_out_*
-* Out*
-* out*
-*.ldb
-_ReSharper*/
-*.eml
-out/
-*.user
-*.resx
-nbproject/
-target/
-build/
-build.xml
-Thumbs.db
-manifest.mf
-Out/
-Out*/
-*.lic
-Data/*Out*
-/dist/
+.vscode/

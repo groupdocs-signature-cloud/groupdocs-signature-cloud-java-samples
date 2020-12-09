@@ -1,7 +1,6 @@
 ## GroupDocs.Signature Cloud SDK for Java Examples
 This repository contains [Examples](Examples) projects for [GroupDocs.Signature Cloud SDK for Java](https://github.com/groupdocs-signature-cloud/groupdocs-signature-cloud-java) to help you learn and write your own applications.
 
-
 [GroupDocs.Signature Cloud SDK for Java](https://products.groupdocs.cloud/signature/java) allows you to work with [GroupDocs.Signature Cloud API](https://products.groupdocs.cloud/signature) REST APIs in your Java applications.
 
 <p align="center">
@@ -13,19 +12,17 @@ This repository contains [Examples](Examples) projects for [GroupDocs.Signature 
 ## Prerequisites
 
 + Java SE Development Kit 8
-
 + GroupDocs.Signature Cloud SDK for Java.
-
-+ Get your AppSID and AppKey at [https://dashboard.groupdocs.cloud](https://dashboard.groupdocs.cloud) (free registration is required).
++ Get your ClientId and ClientSecret at [https://dashboard.groupdocs.cloud](https://dashboard.groupdocs.cloud) (free registration is required).
 
 ## How to Run the Examples?
 
 The package contains Java examples. Follow the given steps to proceed with project build:
 
-* Extract the downloaded project
-* Open project in your IDE
-* Edit RunExamples.java and put appSid and appKey, obtained from https://dashboard.groupdocs.cloud there
-* Build and Run
++ Extract the downloaded project
++ Open project in your IDE
++ Edit RunExamples.java and put ClientId and ClientSecret, obtained from https://dashboard.groupdocs.cloud there
++ Build and Run
 
 For more details, visit  [Getting Started](https://docs.groupdocs.cloud/signature/getting-started/).
 

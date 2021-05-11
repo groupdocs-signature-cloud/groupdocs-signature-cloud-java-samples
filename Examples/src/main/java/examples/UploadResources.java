@@ -49,7 +49,7 @@ public class UploadResources {
 	}
 
 	public static void uploadFile(File file, String relativePath) throws ApiException {
-		String filePath = relativePath.replace("\\", "/");
+		String filePath = relativePath; //.replace("\\", "/");
 		System.out.println("Uploading File: " + filePath);
 		UploadFileRequest request = new UploadFileRequest(filePath, file, Constants.MYStorage);
 		fileApi.uploadFileWithHttpInfo(request);

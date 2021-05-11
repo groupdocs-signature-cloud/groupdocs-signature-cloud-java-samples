@@ -18,9 +18,9 @@ public class RunExamples {
 
 		GetSupportedFormats.main(args);
 		GetDocumentInfo.main(args);
+		GetDocumentPreview.main(args);
 		GetSupportedBarcodeTypes.main(args);
 		GetSupportedQrCodeTypes.main(args);
-
 
 		// Advanced examples
 		
@@ -30,25 +30,25 @@ public class RunExamples {
 		UpdateBarcode.main(args);
 		DeleteBarcode.main(args);
 
-		// CollectionSignature.main(args);
-		// SearchCollection.main(args);
-		// VerifyCollection.main(args);
+		CollectionSignature.main(args);
+		SearchCollection.main(args);
+		VerifyCollection.main(args);
 
-		//QRCodeSignature.main(args);
-		//SearchQRCode.main(args);
-		//VerifyQRCode.main(args);	
-		//UpdateQRCode.main(args);
-		//DeleteQRCode.main(args);
+		QRCodeSignature.main(args);
+		SearchQRCode.main(args);
+		VerifyQRCode.main(args);	
+		UpdateQRCode.main(args);
+		DeleteQRCode.main(args);
 		
-		//DigitalSignature.main(args);
-		//SearchDigital.main(args);
-		//VerifyDigital.main(args);	
+		DigitalSignature.main(args);
+		SearchDigital.main(args);
+		VerifyDigital.main(args);	
 		
-		//TextSignature.main(args);		
-		//VerifyText.main(args);	
+		TextSignature.main(args);		
+		VerifyText.main(args);	
 		
-		//ImageSignature.main(args);
-		//StampSignature.main(args);
+		ImageSignature.main(args);
+		StampSignature.main(args);
 
 		System.out.println("Completed");
 	}	

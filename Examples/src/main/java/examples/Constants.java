@@ -14,7 +14,8 @@ public class Constants {
 	public static Configuration GetConfiguration()
 	{
 		Configuration cfg = new Configuration(Constants.ClientId, Constants.ClientSecret);	
-		cfg.setTimeout(60000);		
+		cfg.setApiBaseUrl("https://api.groupdocs.cloud");
+		cfg.setTimeout(60000);				
 		return cfg;
 	}	
 }
